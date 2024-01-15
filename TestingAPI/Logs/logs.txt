@@ -1,0 +1,143 @@
+2022-07-21 14:34:40.724 +00:00 [INF] Now listening on: http://[::]:80
+2022-07-21 14:34:40.744 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-21 14:34:40.748 +00:00 [INF] Hosting environment: Development
+2022-07-21 14:34:40.753 +00:00 [INF] Content root path: /app
+2022-07-21 14:34:42.226 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49156/swagger/index.html - -
+2022-07-21 14:34:42.472 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49156/swagger/index.html - - - 200 - text/html;charset=utf-8 252.9485ms
+2022-07-21 14:34:43.133 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49156/swagger/v1/swagger.json - -
+2022-07-21 14:34:43.277 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 145.4142ms
+2022-07-21 14:35:22.216 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49156/WeatherForecast - -
+2022-07-21 14:35:22.296 +00:00 [INF] Executing endpoint 'TestingAPI.Controllers.WeatherForecastController.Get (TestingAPI)'
+2022-07-21 14:35:22.348 +00:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[TestingAPI.WeatherForecast] Get() on controller TestingAPI.Controllers.WeatherForecastController (TestingAPI).
+2022-07-21 14:35:22.359 +00:00 [INF] Summary Warm
+2022-07-21 14:35:22.363 +00:00 [INF] TemperatureC 46
+2022-07-21 14:35:22.368 +00:00 [INF] TemperatureF 114
+2022-07-21 14:35:22.374 +00:00 [INF] Date 07/22/2022 14:35:22
+2022-07-21 14:35:22.379 +00:00 [INF] Summary Balmy
+2022-07-21 14:35:22.384 +00:00 [INF] TemperatureC 8
+2022-07-21 14:35:22.388 +00:00 [INF] TemperatureF 46
+2022-07-21 14:35:22.392 +00:00 [INF] Date 07/23/2022 14:35:22
+2022-07-21 14:35:22.397 +00:00 [INF] Summary Chilly
+2022-07-21 14:35:22.402 +00:00 [INF] TemperatureC -14
+2022-07-21 14:35:22.406 +00:00 [INF] TemperatureF 7
+2022-07-21 14:35:22.411 +00:00 [INF] Date 07/24/2022 14:35:22
+2022-07-21 14:35:22.415 +00:00 [INF] Summary Sweltering
+2022-07-21 14:35:22.420 +00:00 [INF] TemperatureC 50
+2022-07-21 14:35:22.425 +00:00 [INF] TemperatureF 121
+2022-07-21 14:35:22.431 +00:00 [INF] Date 07/25/2022 14:35:22
+2022-07-21 14:35:22.435 +00:00 [INF] Summary Hot
+2022-07-21 14:35:22.440 +00:00 [INF] TemperatureC -13
+2022-07-21 14:35:22.444 +00:00 [INF] TemperatureF 9
+2022-07-21 14:35:22.449 +00:00 [INF] Date 07/26/2022 14:35:22
+2022-07-21 14:35:22.466 +00:00 [INF] Executing ObjectResult, writing value of type 'TestingAPI.WeatherForecast[]'.
+2022-07-21 14:35:22.504 +00:00 [INF] Executed action TestingAPI.Controllers.WeatherForecastController.Get (TestingAPI) in 144.153ms
+2022-07-21 14:35:22.509 +00:00 [INF] Executed endpoint 'TestingAPI.Controllers.WeatherForecastController.Get (TestingAPI)'
+2022-07-21 14:35:22.514 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49156/WeatherForecast - - - 200 - application/json;+charset=utf-8 298.2023ms
+2022-07-21 14:35:26.677 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49156/WeatherForecast - -
+2022-07-21 14:35:26.684 +00:00 [INF] Executing endpoint 'TestingAPI.Controllers.WeatherForecastController.Get (TestingAPI)'
+2022-07-21 14:35:26.690 +00:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[TestingAPI.WeatherForecast] Get() on controller TestingAPI.Controllers.WeatherForecastController (TestingAPI).
+2022-07-21 14:35:26.695 +00:00 [INF] Summary Warm
+2022-07-21 14:35:26.701 +00:00 [INF] TemperatureC -7
+2022-07-21 14:35:26.706 +00:00 [INF] TemperatureF 20
+2022-07-21 14:35:26.713 +00:00 [INF] Date 07/22/2022 14:35:26
+2022-07-21 14:35:26.717 +00:00 [INF] Summary Sweltering
+2022-07-21 14:35:26.722 +00:00 [INF] TemperatureC 21
+2022-07-21 14:35:26.726 +00:00 [INF] TemperatureF 69
+2022-07-21 14:35:26.730 +00:00 [INF] Date 07/23/2022 14:35:26
+2022-07-21 14:35:26.735 +00:00 [INF] Summary Scorching
+2022-07-21 14:35:26.739 +00:00 [INF] TemperatureC 52
+2022-07-21 14:35:26.743 +00:00 [INF] TemperatureF 125
+2022-07-21 14:35:26.748 +00:00 [INF] Date 07/24/2022 14:35:26
+2022-07-21 14:35:26.752 +00:00 [INF] Summary Freezing
+2022-07-21 14:35:26.757 +00:00 [INF] TemperatureC 8
+2022-07-21 14:35:26.761 +00:00 [INF] TemperatureF 46
+2022-07-21 14:35:26.765 +00:00 [INF] Date 07/25/2022 14:35:26
+2022-07-21 14:35:26.770 +00:00 [INF] Summary Warm
+2022-07-21 14:35:26.775 +00:00 [INF] TemperatureC -3
+2022-07-21 14:35:26.780 +00:00 [INF] TemperatureF 27
+2022-07-21 14:35:26.784 +00:00 [INF] Date 07/26/2022 14:35:26
+2022-07-21 14:35:26.790 +00:00 [INF] Executing ObjectResult, writing value of type 'TestingAPI.WeatherForecast[]'.
+2022-07-21 14:35:26.795 +00:00 [INF] Executed action TestingAPI.Controllers.WeatherForecastController.Get (TestingAPI) in 99.2807ms
+2022-07-21 14:35:26.798 +00:00 [INF] Executed endpoint 'TestingAPI.Controllers.WeatherForecastController.Get (TestingAPI)'
+2022-07-21 14:35:26.803 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49156/WeatherForecast - - - 200 - application/json;+charset=utf-8 125.3073ms
+2022-07-21 14:35:27.780 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49156/WeatherForecast - -
+2022-07-21 14:35:27.784 +00:00 [INF] Executing endpoint 'TestingAPI.Controllers.WeatherForecastController.Get (TestingAPI)'
+2022-07-21 14:35:27.790 +00:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[TestingAPI.WeatherForecast] Get() on controller TestingAPI.Controllers.WeatherForecastController (TestingAPI).
+2022-07-21 14:35:27.797 +00:00 [INF] Summary Sweltering
+2022-07-21 14:35:27.803 +00:00 [INF] TemperatureC -2
+2022-07-21 14:35:27.808 +00:00 [INF] TemperatureF 29
+2022-07-21 14:35:27.812 +00:00 [INF] Date 07/22/2022 14:35:27
+2022-07-21 14:35:27.817 +00:00 [INF] Summary Bracing
+2022-07-21 14:35:27.822 +00:00 [INF] TemperatureC 53
+2022-07-21 14:35:27.826 +00:00 [INF] TemperatureF 127
+2022-07-21 14:35:27.831 +00:00 [INF] Date 07/23/2022 14:35:27
+2022-07-21 14:35:27.835 +00:00 [INF] Summary Cool
+2022-07-21 14:35:27.839 +00:00 [INF] TemperatureC 40
+2022-07-21 14:35:27.844 +00:00 [INF] TemperatureF 103
+2022-07-21 14:35:27.848 +00:00 [INF] Date 07/24/2022 14:35:27
+2022-07-21 14:35:27.853 +00:00 [INF] Summary Sweltering
+2022-07-21 14:35:27.857 +00:00 [INF] TemperatureC -8
+2022-07-21 14:35:27.861 +00:00 [INF] TemperatureF 18
+2022-07-21 14:35:27.867 +00:00 [INF] Date 07/25/2022 14:35:27
+2022-07-21 14:35:27.871 +00:00 [INF] Summary Hot
+2022-07-21 14:35:27.875 +00:00 [INF] TemperatureC 36
+2022-07-21 14:35:27.879 +00:00 [INF] TemperatureF 96
+2022-07-21 14:35:27.883 +00:00 [INF] Date 07/26/2022 14:35:27
+2022-07-21 14:35:27.887 +00:00 [INF] Executing ObjectResult, writing value of type 'TestingAPI.WeatherForecast[]'.
+2022-07-21 14:35:27.891 +00:00 [INF] Executed action TestingAPI.Controllers.WeatherForecastController.Get (TestingAPI) in 94.598ms
+2022-07-21 14:35:27.896 +00:00 [INF] Executed endpoint 'TestingAPI.Controllers.WeatherForecastController.Get (TestingAPI)'
+2022-07-21 14:35:27.901 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49156/WeatherForecast - - - 200 - application/json;+charset=utf-8 120.8939ms
+2022-07-21 14:35:28.417 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49156/WeatherForecast - -
+2022-07-21 14:35:28.421 +00:00 [INF] Executing endpoint 'TestingAPI.Controllers.WeatherForecastController.Get (TestingAPI)'
+2022-07-21 14:35:28.427 +00:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[TestingAPI.WeatherForecast] Get() on controller TestingAPI.Controllers.WeatherForecastController (TestingAPI).
+2022-07-21 14:35:28.433 +00:00 [INF] Summary Cool
+2022-07-21 14:35:28.439 +00:00 [INF] TemperatureC 8
+2022-07-21 14:35:28.444 +00:00 [INF] TemperatureF 46
+2022-07-21 14:35:28.449 +00:00 [INF] Date 07/22/2022 14:35:28
+2022-07-21 14:35:28.455 +00:00 [INF] Summary Hot
+2022-07-21 14:35:28.460 +00:00 [INF] TemperatureC 7
+2022-07-21 14:35:28.942 +00:00 [INF] TemperatureF 44
+2022-07-21 14:35:28.947 +00:00 [INF] Date 07/23/2022 14:35:28
+2022-07-21 14:35:28.951 +00:00 [INF] Summary Scorching
+2022-07-21 14:35:28.956 +00:00 [INF] TemperatureC -6
+2022-07-21 14:35:28.962 +00:00 [INF] TemperatureF 22
+2022-07-21 14:35:28.966 +00:00 [INF] Date 07/24/2022 14:35:28
+2022-07-21 14:35:28.971 +00:00 [INF] Summary Scorching
+2022-07-21 14:35:28.976 +00:00 [INF] TemperatureC 14
+2022-07-21 14:35:28.981 +00:00 [INF] TemperatureF 57
+2022-07-21 14:35:28.985 +00:00 [INF] Date 07/25/2022 14:35:28
+2022-07-21 14:35:28.990 +00:00 [INF] Summary Freezing
+2022-07-21 14:35:28.996 +00:00 [INF] TemperatureC 4
+2022-07-21 14:35:29.001 +00:00 [INF] TemperatureF 39
+2022-07-21 14:35:29.005 +00:00 [INF] Date 07/26/2022 14:35:28
+2022-07-21 14:35:29.010 +00:00 [INF] Executing ObjectResult, writing value of type 'TestingAPI.WeatherForecast[]'.
+2022-07-21 14:35:29.015 +00:00 [INF] Executed action TestingAPI.Controllers.WeatherForecastController.Get (TestingAPI) in 582.0014ms
+2022-07-21 14:35:29.022 +00:00 [INF] Executed endpoint 'TestingAPI.Controllers.WeatherForecastController.Get (TestingAPI)'
+2022-07-21 14:35:29.027 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49156/WeatherForecast - - - 200 - application/json;+charset=utf-8 610.3658ms
+2022-07-21 14:35:29.713 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:49156/WeatherForecast - -
+2022-07-21 14:35:29.717 +00:00 [INF] Executing endpoint 'TestingAPI.Controllers.WeatherForecastController.Get (TestingAPI)'
+2022-07-21 14:35:29.722 +00:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[TestingAPI.WeatherForecast] Get() on controller TestingAPI.Controllers.WeatherForecastController (TestingAPI).
+2022-07-21 14:35:29.745 +00:00 [INF] Summary Freezing
+2022-07-21 14:35:29.749 +00:00 [INF] TemperatureC 24
+2022-07-21 14:35:29.755 +00:00 [INF] TemperatureF 75
+2022-07-21 14:35:29.760 +00:00 [INF] Date 07/22/2022 14:35:29
+2022-07-21 14:35:29.765 +00:00 [INF] Summary Warm
+2022-07-21 14:35:29.769 +00:00 [INF] TemperatureC -13
+2022-07-21 14:35:29.774 +00:00 [INF] TemperatureF 9
+2022-07-21 14:35:29.779 +00:00 [INF] Date 07/23/2022 14:35:29
+2022-07-21 14:35:29.783 +00:00 [INF] Summary Freezing
+2022-07-21 14:35:29.787 +00:00 [INF] TemperatureC -17
+2022-07-21 14:35:29.791 +00:00 [INF] TemperatureF 2
+2022-07-21 14:35:29.795 +00:00 [INF] Date 07/24/2022 14:35:29
+2022-07-21 14:35:29.799 +00:00 [INF] Summary Bracing
+2022-07-21 14:35:29.804 +00:00 [INF] TemperatureC 16
+2022-07-21 14:35:29.808 +00:00 [INF] TemperatureF 60
+2022-07-21 14:35:29.812 +00:00 [INF] Date 07/25/2022 14:35:29
+2022-07-21 14:35:29.816 +00:00 [INF] Summary Bracing
+2022-07-21 14:35:29.821 +00:00 [INF] TemperatureC 19
+2022-07-21 14:35:29.826 +00:00 [INF] TemperatureF 66
+2022-07-21 14:35:29.830 +00:00 [INF] Date 07/26/2022 14:35:29
+2022-07-21 14:35:29.834 +00:00 [INF] Executing ObjectResult, writing value of type 'TestingAPI.WeatherForecast[]'.
+2022-07-21 14:35:29.839 +00:00 [INF] Executed action TestingAPI.Controllers.WeatherForecastController.Get (TestingAPI) in 94.6896ms
+2022-07-21 14:35:29.844 +00:00 [INF] Executed endpoint 'TestingAPI.Controllers.WeatherForecastController.Get (TestingAPI)'
+2022-07-21 14:35:29.849 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:49156/WeatherForecast - - - 200 - application/json;+charset=utf-8 135.5650ms
