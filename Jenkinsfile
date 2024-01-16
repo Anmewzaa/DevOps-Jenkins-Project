@@ -18,9 +18,9 @@ pipeline {
                 script {
                     env.VERSION = "v0.0.${BUILD_NUMBER}"
                     sh('''
-                        docker build -t testapi:${VERSION} -f TestingAPI/Dockerfile .
-                        docker tag testapi:${VERSION} punyakon/testapi:${VERSION}
-                        docker push punyakon/testapi:${VERSION}
+                        sudo docker build -t testapi:${VERSION} -f TestingAPI/Dockerfile .
+                        sudo docker tag testapi:${VERSION} punyakon/testapi:${VERSION}
+                        sudo docker push punyakon/testapi:${VERSION}
                     ''')
                 }
             }
