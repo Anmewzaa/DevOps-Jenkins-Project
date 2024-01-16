@@ -31,8 +31,9 @@ pipeline {
                 script {
                     withKubeConfig(credentialsId: "kubeconfig") {
                         sh('''
-                            kubectl apply -f k8s/testing-api-deploy.yaml
+                            cat k8s/testing-api-deploy.yaml | envsubst | kubectl apply -f -
                             kubectl apply -f k8s/testing-api-svc.yaml
+                            sleep 10
                             echo "Deploy Version:${VERSION}"
                         ''')
                     }
