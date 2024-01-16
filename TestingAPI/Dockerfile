@@ -7,6 +7,12 @@ EXPOSE 80
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
 COPY ["TestingAPI/TestingAPI.csproj", "TestingAPI/"]
+
+ENV http_proxy http://192.168.1.4:3128
+ENV https_proxy http://192.168.1.4:3128
+ARG HTTP_PROXY http://192.168.1.4:3128
+ARG HTTPS_PROXY http://192.168.1.4:3128
+
 RUN dotnet restore "TestingAPI/TestingAPI.csproj"
 COPY . .
 WORKDIR "/src/TestingAPI"
