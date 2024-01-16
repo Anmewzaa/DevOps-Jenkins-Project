@@ -18,6 +18,6 @@ spec:
         app: testing-api
     spec:
       containers:
-      - image: punyakon/testapi:v0.0.1
+      - image: punyakon/testapi:${VERSION}
         name: testingapi
         resources: {}
