@@ -10,7 +10,7 @@ pipeline {
         stage('Deploy to kubernetes') {
             steps {
                 script {
-                    withKubeconfig(credentialsId: "kubeconfig") {
+                    withKubeConfig(credentialsId: "kubeconfig") {
                         sh('''
                             kubectl get no
                         ''')
