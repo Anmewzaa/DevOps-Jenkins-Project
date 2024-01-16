@@ -6,7 +6,7 @@ metadata:
     app: testing-api
   name: testing-api
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: testing-api
