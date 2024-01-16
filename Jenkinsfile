@@ -31,8 +31,8 @@ pipeline {
                 script {
                     withKubeConfig(credentialsId: "kubeconfig") {
                         sh('''
-                            kubectl apply -f .
-                            kubectl get po -o wide
+                            kubectl apply -f k8s/testing-api-deploy.yaml
+                            kubectl apply -f k8s/testing-api-svc.yaml
                             echo "Deploy Version:${VERSION}"
                         ''')
                     }
